@@ -16,7 +16,7 @@ Here are the requirements to use it in a project:
 #### Installing the project
 
 ```shell
-npm install elephantly/markdown-converter
+npm install elephantly-markdown-converter
 ```
 
 #### Setting your project parameters

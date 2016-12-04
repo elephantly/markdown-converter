@@ -1,5 +1,5 @@
 {
-  "name": "markdown-converter",
+  "name": "elephantly-markdown-converter",
   "version": "1.0.0",
   "description": "This project is a markdown converter. It allows you to convert a README into a site and use it for a github page.",
   "main": "index.js",
