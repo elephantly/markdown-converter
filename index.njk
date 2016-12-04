@@ -1,0 +1,30 @@
+{% extends 'layout.njk' %}
+{% block content %}
+<h1 class ="anchor" id="markdown-converter">Markdown converter</h1><p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/apm/l/atom-kahlan.svg?style=flat-square" alt="apm"></a></p>
+<p>This project is a markdown converter. It allows you to convert a README into a site and use it for a github page.
+The gulp tasks will allow you to convert directly the README to a site without a nav or to convert your README to a nunjucks file, organize it by blocks yourself and then compile it.</p>
+<h3 class ="anchor" id="how-to-use-it">How to use it</h3><h4 class ="anchor" id="requirements">Requirements</h4><p>Here are the requirements to use it in a project:</p>
+<ul>
+<li>npm</li>
+<li>gulp</li>
+<li>nunjucks</li>
+</ul>
+<h4 class ="anchor" id="installing-the-project">Installing the project</h4><pre><code class="lang-shell">npm install elephantly/markdown-converter
+</code></pre>
+<h4 class ="anchor" id="setting-your-project-parameters">Setting your project parameters</h4><p>Complete the parameters.json file with your project values.</p>
+<pre><code class="lang-json">&quot;pageTitle&quot; : &quot;Your Project Name&quot;,
+&quot;repositoryUrl&quot; : &quot;http://your-repository.url&quot;
+</code></pre>
+<h4 class ="anchor" id="using-gulp-tasks">Using gulp tasks</h4><p>To convert the readme to nunjucks use:</p>
+<pre><code class="lang-shell">gulp convert
+</code></pre>
+<p>You can then organize your html into blocks (see the composition of <a href="layout.njk">layout</a>)</p>
+<p>To compile the nunjucks file to an html file use:</p>
+<pre><code class="lang-shell">gulp compile
+</code></pre>
+<p>If you want to directly create a site from the README without a nav:</p>
+<pre><code class="lang-shell">gulp site
+</code></pre>
+{% endblock %}
+{% block menu %}{% endblock %}
+{% block intro %}{% endblock %}
