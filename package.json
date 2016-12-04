@@ -1,13 +1,13 @@
 {
-  "name": "markdown-to-html",
+  "name": "markdown-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is a markdown converter. It allows you to convert a README into a site and use it for a github page.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "purplebabar",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-data": "^1.2.1",

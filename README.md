@@ -44,3 +44,8 @@ If you want to directly create a site from the README without a nav:
 ```shell
 gulp site
 ```
+
+
+Once your index.html is ready, go to [https://pages.github.com/](https://pages.github.com/) to publish your site then :smile:
+
+Enjoy :smile:
